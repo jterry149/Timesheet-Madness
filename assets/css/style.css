@@ -1,18 +1,19 @@
+/*====== H4 Tag properties =======*/
 h4 {
     padding-left: 25px;
 }
+/*====== Form Tag properties =======*/
 .form,.currentEmployee
 {
     border: 2px solid gray;
     padding-bottom:50px;
 }
-tr .headers {
-    padding-left:25px;
-}
+
 .form-group {
     padding-left:25px;
     padding-right:25px;
 }
+/*====== Current H4 Tag properties =======*/
 .current-headings {
     background: lightgray;
     margin-top:0px;
@@ -20,6 +21,7 @@ tr .headers {
     line-height: 50px;
     padding-left: none; 
 }
+/*====== Add Employee H4 Tag properties =======*/
 .add-headings {
     border-bottom: 2px solid gray;
     background: lightgray;
@@ -28,9 +30,11 @@ tr .headers {
     line-height: 50px;
     padding-left: none;
 }
+/*====== Submit btn Tag properties =======*/
 #submit-btn {
     float: right;
 }
+/*====== Container Tag properties =======*/
 .container {
     padding-left:25px;
     padding-right: 25px;
