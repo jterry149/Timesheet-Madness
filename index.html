@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Timesheet</title>
+    <!--===================== Meta Viewport Tags ====================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===================== Bootstrap Css Link ====================-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <!--===================== CSS Link ===============================-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--===================== Header Content Area ====================-->
+    <div class="container">
+        <div class="row col-lg-12">
+            <div class="jumbotron justify-center">
+                <h1 class="text-center">Employee Data Management</h1>
+                <h2 class="text-center">A Comprehensive Directory of Employee Billable Hours</h2>
+            </div>
+        </div>
+    <!--==================== Current Employee Display Area ===========-->
+        <div class="row col-lg-12">
+            <div class="currentEmployee">
+                <h4 class="current-headings">Current Employees</h4>
+                <table class="table">
+                    <thead>
+                        <th class="text-" scope="col">Employee Name</th>
+                        <th scope="col">Role</th>
+                        <th scope="col">Start Date</th>
+                        <th scope="col">Months Worked</th>
+                        <th scope="col">Monthly Rate ($)</th>
+                        <th scope="col">Total Billed ($)</th>
+                    </thead>
+                    <tbody class="current">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--====================== New Employee Display Area =============-->
+    <div class="container">
+        <div class="row col-lg-12">
+            <div class="form">
+                <h4 class="add-headings">Add Employee</h4>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="name-input">Employee Name:</label>
+                        <input class="form-control" id="name-input" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="role-input">Role:</label>
+                        <input class="form-control" id="role-input" type="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="start-input">Start Date:</label>
+                        <input class="form-control" id="start-input" type="number">
+                    </div>
+                    <div class="form-group">
+                        <label for="monthly-input">Monthly Rate</label>
+                        <input class="form-control" id="monthly-input" rows="5">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-default" id="submit-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

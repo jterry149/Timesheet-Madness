@@ -1,0 +1,38 @@
+h4 {
+    padding-left: 25px;
+}
+.form,.currentEmployee
+{
+    border: 2px solid gray;
+    padding-bottom:50px;
+}
+tr .headers {
+    padding-left:25px;
+}
+.form-group {
+    padding-left:25px;
+    padding-right:25px;
+}
+.current-headings {
+    background: lightgray;
+    margin-top:0px;
+    margin-left:0px;
+    line-height: 50px;
+    padding-left: none; 
+}
+.add-headings {
+    border-bottom: 2px solid gray;
+    background: lightgray;
+    margin-top:0px;
+    margin-left:0px;
+    line-height: 50px;
+    padding-left: none;
+}
+#submit-btn {
+    float: right;
+}
+.container {
+    padding-left:25px;
+    padding-right: 25px;
+    margin-bottom:20px;
+}
